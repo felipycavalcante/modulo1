@@ -3,7 +3,7 @@ classe: m1_lab3py
 descricao:  Mostrar o somatória de todos os votos em vereadores
 autor: Clodonil Honorio Trigo
 email: clodonil@nisled.org
-data: 04 de julho de 2018
+data de entrega: 13/03/2019
 '''
 
 # importa a lib para obter as tabelas da Wikipedia
@@ -39,4 +39,5 @@ for linha in tables[1:]:
     total = total + float(num[0])
 
 # Imprimindo o total de votos
+print("O número total de votos é: ")
 print(total)
