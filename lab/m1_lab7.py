@@ -1,9 +1,9 @@
 '''
 classe: m1_lab7.py
-descricao: Pesquisar se tem algum vereador está na lista de investigados na Lava Jato 
+descricao: Pesquisar e printar os vereadores eleitos que não são investigados pela lava jato
 autor: Clodonil Honorio Trigo
 email: clodonil@nisled.org
-data: 04 de julho de 2018
+data de entrega: 13/03/2019
 '''
 
 # importa a lib para obter as tabelas da Wikipedia
@@ -29,11 +29,6 @@ for investigados in  lista_lava_jato[1:]:
 # pesquisar nome por nome de vereador na lista de investigado
 for vereador in vereadores[1:]:
     # Verifica se o nome do vereador esta na lista de investigados
-    if vereador[0] in lista_investigados:
+    if vereador[0] not in lista_investigados:
        print(vereador)
 
-
-# Validacao 
-#vereador = "Aécio Neves"
-#if vereador in lista_investigados:
-#    print(vereador)
