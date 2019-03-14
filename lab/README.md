@@ -9,16 +9,16 @@ CI73A
 
 Laboratório:
 
-m1_lab1.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab1.py
+m1_lab1.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab1.py
 
-m1_lab2.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab2.py
+m1_lab2.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab2.py
 
-m1_lab3.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab3.py
+m1_lab3.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab3.py
 
-m1_lab4.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab4.py
+m1_lab4.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab4.py
 
-m1_lab5.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab5.py
+m1_lab5.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab5.py
 
-m1_lab6.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab6.py
+m1_lab6.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab6.py
 
-m1_lab7.py - https://github.com/felipycavalcante/modulo1/blob/master/m1_lab7.py
+m1_lab7.py - https://github.com/felipycavalcante/modulo1/blob/master/lab/m1_lab7.py
