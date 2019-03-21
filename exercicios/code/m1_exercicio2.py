@@ -13,7 +13,7 @@ for linha in tables[1:]:
      # Obter o nome
      mun = linha[2]
      
-     hab=int(linha[4])
+     hab = int( linha[4] )
  
-     if(hab < 70000):
-       print(mun[0:35])
+     if( hab < 70000 ):
+       print( mun[0:35] )
