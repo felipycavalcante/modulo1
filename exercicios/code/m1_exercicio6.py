@@ -13,6 +13,6 @@ for linha in tables[1:]:
 
      # Obtendo soma de habitantes
      hab = linha[4]
-     total=int(hab)+total
+     total = int(hab) + total
      
-print('Total da população:',total)
+print('Total da população: ', total)
