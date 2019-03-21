@@ -11,9 +11,9 @@ tables = site_connect.get_tables(0)
 for linha in tables[1:]:
 
      # Obter o nome
-     nome2 = linha[2]
+     mun = linha[2]
      
-     x=int(linha[4])
+     hab=int(linha[4])
  
-     if(x < 70000):
-       print(nome2[0:35])
+     if(hab < 70000):
+       print(mun[0:35])
