@@ -7,7 +7,7 @@ site_connect = Scrapy_Table(url)
 # Pegando a tabela
 tables = site_connect.get_tables(0)
   
-total=0
+total = 0
 # Listando o conteudo da tabela
 for linha in tables[1:]:
 
