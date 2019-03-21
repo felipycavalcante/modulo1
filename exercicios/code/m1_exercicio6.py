@@ -1,46 +1,18 @@
-'''
-classe: m1_lab6.py
-descricao: Numero total de votos por partido
-autor: Clodonil Honorio Trigo
-email: clodonil@nisled.org
-data: 04 de julho de 2018
-'''
-
 # importa a lib para obter as tabelas da Wikipedia
 from  lib.scrapy_table import Scrapy_Table
-
-
 # Variavel com o link da tabela
-url="https://pt.wikipedia.org/wiki/C%C3%A2mara_Municipal_de_S%C3%A3o_Paulo"
-
+url="https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Brasil_por_popula%C3%A7%C3%A3o"
 # Inicia a class para obter a tabela
 site_connect = Scrapy_Table(url)
-
-# Pegando a tabela 5 (Vereadores em exercicio)
-tables = site_connect.get_tables(5)
+# Pegando a tabela
+tables = site_connect.get_tables(0)
   
-# Dicionario para armazenar partido e votos
-# key = partidos
-# values = votos
-partidos =  {}
-
+total=0
 # Listando o conteudo da tabela
 for linha in tables[1:]:
 
-    # Obtendo o partido
-    partido = linha[1]
-
-    # Obtendo o voto do partido
-    n_voto = float(linha[2].split(" ")[0])
-
-    # se o partido esta no dicionario
-    if partido in partidos:
-       # Se tiver soma os votos
-       partidos[partido] = partidos[partido] + n_voto
-    else:
-       # Se nao tiver inicializa o dicionario com o partido e o numero de votos
-       partidos[partido] = n_voto
-    
-# Imprime os partidos e os votos
-for partido in partidos:
-    print(partido, 'teve',partidos[partido], 'votos.') 
+     # Obtendo soma de habitantes
+     hab = linha[4]
+     total=int(hab)+total
+     
+print('Total da população:',total)
