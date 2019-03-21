@@ -8,8 +8,8 @@ tables = site_connect.get_tables(0)
 for linha in tables[1:]:
 
      # Obtendo número e nome
-     nome = linha[1]
-     nome2 = linha[2]
+     numero = linha[1]
+     nome = linha[2]
 
      # Imprimindo os caracteres
-     print(nome[0:15], nome2[0:35])
+     print(numero[0:15], nome[0:35])
